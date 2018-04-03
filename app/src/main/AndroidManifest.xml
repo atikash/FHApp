@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vj.fhapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.fingerprint"
+        android:required="false"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="CSDI"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".sign_up" />
+        <activity android:name=".Login" />
+
+        <activity android:name=".Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBloZVUgSb7vm6YDo_xgZoPR0clQ2VLpjk" />
+
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".Dashboard" />
+
+        <activity android:name=".Chat" />
+        <activity android:name=".Alert" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".Video" />
+        <activity android:name=".About" />
+        <activity android:name=".Lan" />
+
+    </application>
+
+</manifest>

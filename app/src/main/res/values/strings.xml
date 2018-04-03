@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Life Fit</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="sign_up_button_label">Sign Up</string>
+    <string name="signup_error_message">Please make sure you enter an email address and password!</string>
+    <string name="signup_error_title">Error!</string>
+    <string name="signup_success">Account successfully created! You can now Login.</string>
+    <string name="login_error_message">Please make sure you enter an email address and password!</string>
+    <string name="login_error_title">Error!</string>
+    <string name="login_button_label">Login</string>
+    <string name="sign_up_text">Sign Up!</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="add_item">Add New Item</string>
+    <string name="action_logout">Logout</string>
+    <string name="btn_link_to_register">Not a member? Get registered in FitnessHeal now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+
+    <string name="txtCount">0</string>
+    <string name="strStart">Start</string>
+    <string name="txtSteps">Steps</string>
+    <string name="reset">Reset</string>
+    <string name="strStop">Stop</string>
+</resources>
